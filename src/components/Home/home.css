@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.home-content {
+    width: 70%;
+    text-align: justify;
+}
+
+.home-content h2 {
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.home-content p {
+    font-size: 20px;
+}
+
+.home-content img {
+    width: 490px;
+    padding: 12px;
+}
+
+.section {
+
+}
+
+.section-main {
+
+}
+
+.section-secondary {
+    
+}
