@@ -14,3 +14,19 @@ header h1 {
     width: 100%;
     text-align: center;
 }
+
+@media (max-width: 950px) {
+    header {
+        padding: 0px 12px;
+        margin-bottom: 30px;
+    }
+
+    header h1 {
+        padding: 16px 0;
+        font-size: 22px;
+    }
+
+    header img{
+        width: 100px;
+    }
+}

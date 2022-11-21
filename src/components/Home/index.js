@@ -19,10 +19,10 @@ const Home = () => {
 
                     <Container>
                         <Row className="d-flex justify-content-md-center">
-                            <Col xs={6} className="d-flex justify-content-md-center">
+                            <Col lg={6} xs={12} className="d-flex justify-content-md-center">
                                 <img src={sustentabilidade} alt="sustentabilidade" />
                             </Col>
-                            <Col xs={6}>
+                            <Col lg={6} xs={12}>
                                 <p>
                                     Nós nos esforçamos continuamente para melhorar o fornecimento responsável de nossas matérias-primas ao longo de nossa jornada.
                                     O índice de desperdício de alimentos é cada vez crescente ao longo dos últimos anos em nosso planeta. As perdas ocorrem porque os produtos estão fora do prazo de validade, ou por serem identificados como malformados. Para agravar, o desperdício alimentar está agregado à cultura brasileira: restos alimentares geralmente não são aproveitados para a produção de novos produtos.
@@ -31,15 +31,18 @@ const Home = () => {
                             </Col>
                         </Row>
                         <br />
-                        <Row className="mt-5 d-flex justify-content-md-center">
-                            <Col xs={6}>
+                        <Row 
+                            className={`d-flex justify-content-md-center
+                                ${window.innerWidth < 410 ? 'flex-column-reverse mt-1' : 'mt-5'}`
+                            }>
+                            <Col lg={6} xs={12}>
                                 <p>
                                     Ainda de acordo com a autora esses frutos poderiam ser aproveitados em salada de frutas, sucos, doces, bolos entre outros. O aproveitamento integral de alimentos consiste em utilizar partes dos alimentos que normalmente são descartadas, como cascas, folhas e talos.
                                     O processo de educação alimentar possibilita a conscientização de que as partes de frutas e vegetais desprezados, também contém sais minerais, vitaminas, fibras entre outros, e favorece a diminuição do desperdício de alimentos e consequentemente haverá uma maior economia doméstica. Desta forma, o aproveitamento passa a ser uma prática de consumo consciente, promove a cidadania e permite que a população tenha uma relação harmoniosa com o nosso meio ambiente.
                                     A educação é o caminho mais adequado para este processo. Por conta disso, nossa empresa criou um projeto de um alimento feito a partir dos descartes das cascas de banana, afim de inovar um novo produto para o mercado.  
                                 </p>
                             </Col>
-                            <Col xs={6} className="d-flex justify-content-md-center">
+                            <Col lg={6} xs={12} className="d-flex justify-content-md-center">
                                 <img src={banana} alt="bananas" />
                             </Col>
                         </Row>
