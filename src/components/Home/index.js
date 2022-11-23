@@ -3,6 +3,7 @@ import Header from '../Header'
 import Footer from '../Footer'
 import banana from '../../assets/bananas.png'
 import sustentabilidade from '../../assets/sustentabilidade.jpg'
+import grupo from '../../assets/grupo.jpeg'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -44,6 +45,15 @@ const Home = () => {
                             </Col>
                             <Col lg={6} xs={12} className="d-flex justify-content-md-center">
                                 <img src={banana} alt="bananas" />
+                            </Col>
+                        </Row>
+                        
+                        <Row>
+                            <Col xs={12}>
+                                <h2 style={{marginTop: '26px'}}>Integrantes do grupo</h2>
+                            </Col>
+                            <Col xs={12} className="d-flex justify-content-md-center">
+                                <img src={grupo} alt="Integrantes do grupo" />
                             </Col>
                         </Row>
                     </Container>

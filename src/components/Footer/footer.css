@@ -1,7 +1,29 @@
 footer {
     width: 100%;
-    background-color: blue;
+    background-color: #8D6543;
     text-align: center;
-    padding: 20px 40px;
+    padding: 20px 40%;
     margin-top: 30px;
+}
+
+@media (max-width: 950px) {
+    footer {
+        padding: 20px 26px;
+    }
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    /* justify-content: center; */
+    /* min-width: 300px; */
+}
+
+.footer-links img, b {
+    margin-right: 20px;
+}
+
+.footer-links p {
+    margin: 0;
 }
